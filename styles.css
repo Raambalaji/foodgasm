@@ -1,0 +1,436 @@
+﻿h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.col-md-6 {
+    color: #324b72;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+}
+
+button {
+    outline: none !important;
+    box-shadow: 0 0 0 0rem transparent !important;
+}
+
+#foodgasm .p-0 {
+    padding: 0px;
+}
+
+#foodgasm .carousel-img {
+    height: 207px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#foodgasm .FoodName {
+    position: absolute;
+    z-index: 8;
+    opacity: 1;
+    top: -57px;
+    width: 90%;
+    background: #ef0073;
+    /* margin: 0 auto; */
+    border-radius: 6px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #fff;
+    padding: 8px 15px 4px 15px;
+}
+
+#foodgasm .NameofFood {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#foodgasm .NameofFoodCat {
+    font-weight: 500;
+}
+
+#foodgasm .FoodRateCard {
+    margin: 0 auto;
+    width: 90%;
+    box-shadow: 0px 3px 6px #b9b9b9;
+    padding: 10px 10px 10px 10px;
+}
+
+#foodgasm .FoodRatingtotal {
+    font-size: 12px;
+    font-weight: 400;
+    color: #848282;
+}
+
+#foodgasm .FoodDeliverExp {
+    font-size: 12px;
+    font-weight: 400;
+    color: #848282;
+}
+
+#foodgasm .FoodCostExp {
+    font-size: 12px;
+    font-weight: 400;
+    color: #848282;
+}
+
+#foodgasm .FoodRate {
+    text-align: center;
+}
+
+#foodgasm .Foodratingcard .fa {
+    color: #ffc905;
+    padding-right: 2px;
+}
+
+#foodgasm .FoodDeliverTIming .fa {
+    color: #2196F3;
+    padding-right: 5px;
+}
+
+#foodgasm .FoodCost .fa:before {
+    color: #ef0073 !important;
+    padding-right: 5px;
+}
+
+#foodgasm .Foodratingcard,
+#foodgasm .FoodDeliverTIming,
+#foodgasm .FoodCost {
+    font-weight: 600;
+}
+
+#foodgasm .FoodContentWrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#foodgasm .FooDCatTitle {
+    position: absolute;
+    top: 0;
+}
+
+#foodgasm .FooDCatTitle h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #112950;
+}
+
+
+/**/
+
+#foodgasm .mobile .mobile-body {
+    height: 100%;
+    padding-top: 40px;
+    border-radius: 4px;
+    position: relative;
+}
+
+#foodgasm .navbar {
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65%;
+    padding: 0px !important;
+}
+
+.navbar .logo {
+    padding: 12px 5px 12px 35px;
+}
+
+#foodgasm .navbar .logo a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+#foodgasm .navbar button.burger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 0;
+    background: transparent;
+    padding: 8px 15px;
+    pointer: cursor;
+    outline: none;
+    display: flex;
+}
+
+#foodgasm .navbar button.burger span {
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: #000;
+    margin: 3px 0;
+    border-radius: 4px;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    margin: 0 2px;
+}
+
+#foodgasm .navbar button.burger:focus+ul {
+    max-height: 500px;
+}
+
+#foodgasm .navbar ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    width: 100%;
+    margin-top: 3vh;
+    box-shadow: 0px 0px 5px #bbbbbb;
+    border-radius: 8px;
+    background: #fff;
+}
+
+#foodgasm .navbar ul.menu>li {
+    display: block;
+    padding: 8px 15px 8px 15px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    margin: 0px 0;
+}
+
+#foodgasm .navbar ul.menu>li:hover {
+    background: #ef0073;
+    color: #fff;
+}
+
+
+/**/
+
+#foodgasm .FoodCunt {
+    float: right;
+    font-weight: 600;
+    color: #ef0073;
+}
+
+#foodgasm .navbar ul.menu>li:hover .FoodCunt {
+    color: #fff !important;
+}
+
+#foodgasm .FoodCatDes p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#foodgasm .Foodvarity {
+    font-weight: 500;
+    color: #808080;
+    padding-top: 1px;
+}
+
+#foodgasm .VegNV {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#foodgasm .VEGNvDet img {
+    width: 12%;
+}
+
+#foodgasm .VefNonVegDes {
+    font-weight: 600;
+    text-transform: uppercase;
+    /* padding-left: 10px; */
+    color: #848484;
+    font-size: 14px;
+}
+
+#foodgasm .Flex-alignFood {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#foodgasm .VEGNvDet {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding-left: 1px;
+    margin-bottom: 1rem;
+}
+
+#foodgasm .SharingCOunterFood ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+
+#foodgasm .SharingCOunterFood ul li {
+    text-align: center;
+    padding: 0 14px 13px;
+}
+
+#foodgasm .SharingFood {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-top: 2px dashed #e8e8e8;
+    border-bottom: 2px dashed #e8e8e8;
+}
+
+#foodgasm .SharingCOunterFood {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#foodgasm .SharingCOunterFood ul svg path {
+    fill: #ef0073;
+}
+
+#foodgasm .SharingCOunterFood ul svg {
+    width: 25px;
+    fill: #fff;
+    height: auto;
+    margin: 7px;
+    margin-bottom: 0px;
+}
+
+#foodgasm {
+    padding-bottom: 30px;
+}
+
+#foodgasm .SharingCOunterFood ul li .SharingLikeContent {
+    font-weight: 500;
+    color: #8c8c8c;
+}
+
+#foodgasm .FoodCalories svg {
+    width: 20%;
+    height: auto;
+}
+
+#foodgasm .FoodCalories svg path {
+    fill: #fff;
+}
+
+#foodgasm .FoodCalories {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#foodgasm .FoodCalories .CaloreisSec {
+    font-size: 16px;
+    padding-left: 8px;
+    padding-right: 10px;
+    font-weight: 700;
+}
+
+#foodgasm .SimilarFoods {
+    margin-top: 1rem;
+}
+
+#foodgasm .SimilarFoodtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #112950;
+}
+
+#foodgasm .SimilarFoodImage {
+    border-radius: 5px;
+    height: 150px;
+    overflow: hidden;
+}
+
+#foodgasm .similarFoodCarousel {
+    margin-top: 1.5rem;
+}
+
+#foodgasm .SimilarFoodCrop {
+    border: 2px solid #e8e8e8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#foodgasm .similarFoodDetails h2 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #112950;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#foodgasm .similarFoodDetails h3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #bdc2ca;
+    margin-bottom: 5px;
+    height: 30px;
+}
+
+#foodgasm .similarFoodDetails h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #112950;
+    margin-bottom: 5px;
+    background: #f3f3f3;
+    padding: 6px 6px 6px 12px;
+    border-radius: 5px;
+}
+
+#foodgasm .similarFoodDetails h4 .fa:before {
+    padding-right: 5px;
+}
+
+#similarFoods .owl-dots {
+    display: none;
+}
+
+.SimilarFoodSec {
+    position: relative;
+}
+
+#similarFoods .owl-nav {
+    position: absolute;
+    top: -46px;
+    right: 0;
+}
+
+#similarFoods .owl-nav .fa {
+    padding: 6px;
+    font-size: 23px;
+    color: #ef0073;
+}
+
+#similarFoods .owl-nav button {
+    box-shadow: 0px 0px 0px transparent !important;
+}
+
+@media (max-width: 767px) {
+    #foodgasm .FoodName {
+        top: -46px;
+    }
+}
